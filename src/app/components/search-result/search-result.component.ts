@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HeroesService } from 'src/app/services/heroes.services';
-import { Router, ActivatedRoute } from '@angular/router';
+import { HeroesService, Heroe } from 'src/app/services/heroes.services';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-search-result',
